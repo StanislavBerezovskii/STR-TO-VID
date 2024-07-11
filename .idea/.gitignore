@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+.venv
+
+str_to_vid/media
+
+str_to_vid/static
+
+str_to_vid/str_to_vid/db.sqlite3
