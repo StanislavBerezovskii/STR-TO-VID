@@ -9,6 +9,7 @@ from helpers.helpers import create_video_from_message, conversion_to_h264
 
 @csrf_exempt
 def index(request):
+    # catches POST requests
     if request.method == 'POST':
         message = str(request.POST.get('message', ''))
         output = create_video_from_message(message)
@@ -17,6 +18,7 @@ def index(request):
         new_video.save()
         context = {'object': new_video}
         return render(request, 'converter/index.html', context)
+    # otherwise just shows page
     else:
         context = {}
         return render(request, 'converter/index.html', context)
