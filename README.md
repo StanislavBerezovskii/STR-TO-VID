@@ -7,12 +7,12 @@ Fork the repository and clone it to the desired location:
     git clone...
 Set up a virtual environment:
     python -m venv venv
-Install libraries from the requirements.txt file to the virtual environment:
-    (venv) pip install -r requirements.txt
-Run migrations:
-    (venv) python manage.py migrate
+Install libraries from the requirements.txt file into the virtual environment:
+    pip install -r requirements.txt
+Run migrations, make sure you run the following commands from the folder containing the manage.py file:
+    python manage.py migrate
 Start the application:
-    (venv) python manage.py runserver
+    python manage.py runserver
 ```
 
 Usage:
