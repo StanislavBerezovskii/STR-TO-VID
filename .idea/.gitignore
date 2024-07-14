@@ -5,3 +5,6 @@
 str_to_vid/media
 
 str_to_vid/static
+venv/
+/venv/
+.venv/
