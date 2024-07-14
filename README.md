@@ -25,7 +25,7 @@ Creating videos:
 Database:
 ```
 if you wish to use the postgreSQL database for the project:
-    The application is already setup to work with a
+    The application is already setup to work with the following
     database name: videodb
     user name: django_admin
     and password: django_pass
