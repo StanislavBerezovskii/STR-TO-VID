@@ -3,6 +3,8 @@ This is a small application that creates a running text line video from a text s
 
 Getting started:
 ```
+Fork the repository and clone it to the desired location:
+    git clone...
 Set up a virtual environment:
     python -m venv venv
 Install libraries from the requirements.txt file:
