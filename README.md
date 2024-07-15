@@ -1,5 +1,5 @@
 # Project STR-TO-VID
-This is a small application that creates a running text line video from a text string.
+This is a small application that creates a running text line video from a text string
 
 Getting started:
 ```
